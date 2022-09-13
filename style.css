@@ -5,7 +5,6 @@
   font-family: Arial;
 }
 body {
-  text-align: right;
   max-width: 800px;
   padding: 50px;
   margin: 0 auto;
@@ -13,6 +12,15 @@ body {
 img {
   max-width: 100%;
   display: block;
+}
+h1 {
+  text-align: left;
+  margin: 20px 0;
+}
+.popup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .popup__btn-check-input {
@@ -25,7 +33,6 @@ img {
 .popup__btn-check-box-icon {
   cursor: pointer;
   position: absolute;
-  margin-top: 0.2em;
   width: 25px;
   height: 25px;
   overflow: hidden;
